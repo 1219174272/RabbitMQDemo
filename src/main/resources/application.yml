@@ -1,0 +1,15 @@
+spring:
+  rabbitmq:
+    #ip
+    host: 127.0.0.1
+    #端口
+    port: 5672
+    #账号
+    username: root
+    #密码
+    password: 123.com
+    virtual-host: /
+    #消息发送到交换机确认机制,是否确认回调
+    publisher-confirms: true
+server:
+    port: 8099
